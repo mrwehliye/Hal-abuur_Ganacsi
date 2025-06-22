@@ -1,0 +1,566 @@
+
+/*.welcome-section h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  padding:5px 5px;          /* gudaha marawada */
+ /* border-radius: 40px;         /* geesaha wareegsan */
+  /*display: inline-block;      /* background-ka qoraalka oo keliya */
+  /*margin-boton:15px;
+}
+
+
+
+.welcome-section p {
+  font-size: 20px;
+  color: #334155;
+  line-height: 1.20;
+  
+  
+  
+}
+
+
+
+#welcome h1 {
+  color: rgb(33, 31, 29); /* ama waxaad isticmaali kartaa #ffe4c4 */
+ /* background-color: #0f172a;
+  color: #f3f4f6;
+}*/
+
+
+
+
+
+/* Font ka ugu horeyn */
+@import url('download (19).jpeg');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Welcome Section */
+.welcome-section {
+  position: relative;
+  background: url('download (19).jpeg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.welcome-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* madow muuqaalka yar leh */
+  z-index: 1;
+  border-radius: 0 0 40px 40px;
+}
+
+.welcome-section .container {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.welcome-section h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.welcome-section p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: black;
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  /*background: hotpink;*/
+  background: url('download (25).jpeg') no-repeat center center/cover;
+  
+  
+  
+  
+}
+
+nav {
+  background: black;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ff6347;
+}
+
+section {
+  padding: 50px 20px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 45px;
+}
+
+.bg-cilaan {
+  background-image: url('bg-cilaan.jpg');
+}
+
+.bg-aroos {
+  background-image: url('bg-aroos.jpg');
+}
+
+.bg-hool {
+  background-image: url('bg-hool.jpg');
+}
+.content {
+  background-color:black;
+  max-width: 1100px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 12px;
+  color: #f3f4f6;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.content p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+.item {
+  background: white;
+  border-radius: 12px;
+  width: 210px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 159px;
+  object-fit: cover;
+}
+
+.item p {
+  margin: 10px 0 6px 0;
+  color: #333;
+}
+
+.price {
+  font-weight: bold;
+  color: #2ecc71;
+  font-size: 1.1rem;
+}
+
+.icons {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.icons span {
+  margin: 0 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.icons span:hover {
+  color: #ff6347;
+}
+.m{
+    
+ 
+      background-color: #1e90ff;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    
+}
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: rgb(from color r g b);
+}
+
+/*.about-section {
+  background: burlywood;
+  padding: 60px 20px;
+  border-radius: 20px;
+  margin: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}*/
+
+
+
+
+
+.about-section {
+ /* background-image: url('❤️.jpeg');*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+
+ /*  Inta kale ee styles */
+  padding: 60px 20px; 
+  border-radius: 20px;
+  margin: 40px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  max-width: 900px;
+  margin-left: 0; /* qoraalka geeska bidix ayuu galayaa */
+  padding: 0 20px;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: white;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.contact-section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section .container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section .title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.contact-section .desc {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f8fafc;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+
+
+
+.contact-section {
+  background: #f3f4f6;
+  padding: 50px 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+}
+
+.contact-section .title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #0f172a;
+}
+
+.contact-section .desc {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #475569;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1.8px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #fff;
+  color: #1e293b;
+  transition: border-color 0.3s ease;
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+.contact-section {
+  background: #f3f4f6;
+  padding: 50px 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+}
+
+.contact-section .title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #0f172a;
+}
+
+.contact-section .desc {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #475569;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  padding: 12px 15px;
+  border: 1.8px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: whitesmoke;
+  color: #1e293b;
+  transition: border-color 0.3s ease;
+  resize: vertical;
+}
+
+
+.contact-section {
+  background: #f3f4f6;
+  padding: 50px 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+}
+
+.contact-section .title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #0f172a;
+}
+
+.contact-section .desc {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #475569;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1.8px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
+  color: #1e293b;
+  transition: border-color 0.3s ease;
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color:blue;
+  outline: none;
+}
+
+
+.contact-form button {
+  width: 100%;
+  padding: 15px;
+  background-color:black;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #2563eb;
+}
+.m{
+  background-color: black;
+  
+
+}
+
+
+
